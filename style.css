@@ -139,7 +139,7 @@ body{
     font-size: 45px;
     letter-spacing: 2px;
     margin-top: 28px;
-    margin-left: 390px;
+    margin-left: 255px;
     color: white;
     font-weight: normal;
     text-shadow: 2px 2px 1px gray;
@@ -168,13 +168,49 @@ body{
 }
 
 .card .category{
+    width: 100%;
+    font-family: "TrebuchetMS";
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
+    color:#00538c;
 }
 
 .card .description{
     margin-left: 5px;
     margin-right: 5px;
+    font-family: "TrebuchetMS";
+    color:#0370b9;
+}
+
+.clear{
+    float: none;
+    clear: both;
+    display: none;
+}
+
+#aside{
+    width: 300px;
+    float: right;
+    min-height: 1200px;
+    font-family: "TrebuchetMS";
+    margin-right: 18px;
+}
+
+#aside h3{
+    display: block;
+    width: auto;
+    height: 48px;
+    line-height: 45px;
+    background: url(img/pxgray.png), whitesmoke;
+    box-shadow: 0px 0.5px 0px #8d8d8d, 0.5px 1px 0px #8d8d8d, 0.5px 2px 0px #8d8d8d, 2px 3px 0px #8d8d8d;
+    font-size: 30px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
