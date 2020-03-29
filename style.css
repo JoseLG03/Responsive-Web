@@ -79,7 +79,7 @@ body{
     transition: all 200ms;
 }
 
-.gear{
+.gear, .icon{
     font-family: "WebSymbols";
     transition: all 200ms;
 }
@@ -144,6 +144,39 @@ body{
     font-weight: normal;
     text-shadow: 2px 2px 1px gray;
 }
+
+.card{
+    float: left;
+    width:200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden;
+    margin: 19px;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card .icon{
+    display: block;
+    width: 100%;
+    height:130px;
+    font-size: 60px;
+    line-height: 130px;
+    margin: 0px auto;
+}
+
+.card .category{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card .description{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
