@@ -341,6 +341,20 @@ body{
     color:#2f78bc;
 }
 
+#social{
+    height: 190px;
+}
+
+#social a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
