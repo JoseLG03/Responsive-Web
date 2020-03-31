@@ -40,6 +40,11 @@ body{
     font-family: "Roboto";
 }
 
+.clear{
+    float: none;
+    clear: both;
+}
+
 .wrap{
     width: 1200px;
     margin: 0px auto;
@@ -353,6 +358,41 @@ body{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+#article{
+    width: 820px;
+    float: left;
+}
+
+#article h2{
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background: url(img/pxgray.png), white;
+    box-shadow: 0px 0.5px 0px #8d8d8d, 0.5px 1px 0px #8d8d8d, 0.5px 2px 0px #8d8d8d, 2px 3px 0px #8d8d8d;
+}
+
+#article article{
+    width: 98%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    padding: 10px;
+    font-family: "TrebuchetMS";
+    background: white;
+    color: black;
+    box-shadow: 1px 1px 2px #ddd;
+    text-align: justify;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
