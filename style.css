@@ -312,7 +312,7 @@ body{
     height: 35px;
     margin-top: 20px;
     color: white;
-    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100% );
+    background: linear-gradient(to bottom, #0370b9 0%,#00538c 100% );
     border: 1px solid #156785;
     border-radius: 0px;
     cursor: pointer;
@@ -441,6 +441,26 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
+}
+
+#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center !important;
+}
+
+#blog a{
+    display: block;
+    color: #00538c;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: "BebasNeue";
+}
+
+#footer{
+    color: black;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
