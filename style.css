@@ -460,7 +460,41 @@ body{
 }
 
 #footer{
+    width: 100%;
+    height: 470px;
+    background: black;
+    color: white;
+    display: block;
+    overflow: hidden;
+}
+
+#footer .wrap >div{
+    float: left;
+    width: 320px;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-family: "TrebucheteMS";
+}
+
+#footer a{
+    text-decoration: none;
+    color:#37bcf9;
+    transition: all 200ms;
+}
+
+#footer h5{
+    display: block;
+    background: url(img/pxgray.png), white;
+    height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    line-height: 55px;
     color: black;
+    border-radius: 5px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
