@@ -395,6 +395,32 @@ body{
     text-align: justify;
 }
 
+#article article h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+}
+
+#article article h4 a{
+    text-decoration: none;
+    color: #00538c;
+}
+
+#article article h4 a:hover{
+    text-decoration: underline;
+    color: #00538c;
+}
+
+#article article a{
+    color: #00538c;
+    text-decoration: none;
+}
+
+#article article a:hover{
+    text-decoration: underline;
+}
+
+#
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
