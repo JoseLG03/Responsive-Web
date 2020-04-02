@@ -200,6 +200,7 @@ body{
     min-height: 1100px;
     font-family: "TrebuchetMS";
     margin-right: 18px;
+    margin-left: 1px;
 }
 
 #aside h3{
