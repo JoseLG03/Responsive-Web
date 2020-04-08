@@ -246,6 +246,11 @@ body{
     margin-top: 40px;
     text-align: center;
     cursor: pointer;
+    transition: all 300ms;
+}
+
+.card:hover{
+    background: black;
 }
 
 .card .icon{
@@ -255,6 +260,22 @@ body{
     font-size: 60px;
     line-height: 130px;
     margin: 0px auto;
+    transition: all 300ms;
+}
+
+.card .icon:hover{
+    font-size: 70px;
+    color: #37bcf9;
+    animation: showIcon 300ms linear;
+}
+
+@keyframes showIcon{
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
 }
 
 .card .category{
