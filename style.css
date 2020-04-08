@@ -184,6 +184,18 @@ body{
     background: url(img/bakbaner.png);
     background-position: -150px -305px;
     margin: 20px auto;
+    animation: backBanner 10s linear;
+    overflow: hidden;
+}
+
+@keyframes backBanner{
+    0%{
+        background-position: 0px 0px;
+    }
+
+    100%{
+        background-position: -150px -305px;
+    }
 }
 
 #banner h1{
@@ -197,6 +209,30 @@ body{
     color: white;
     font-weight: normal;
     text-shadow: 2px 2px 1px gray;
+    animation: showText 10s linear;
+}
+
+@keyframes showText{
+    0%{
+        transform: translateX(-600%) scale(4,4);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(600%) scale(4,4);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-600%) scale(5,5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        opacity: 1;
+        color: white;
+        text-shadow: 2px 2px 1px gray;
+    }
 }
 
 .card{
