@@ -263,11 +263,11 @@ body{
     transition: all 300ms;
 }
 
-.card:hover{
+.card:hover .icon{
     font-size: 70px;
     color: #37bcf9;
     animation: showIcon 300ms linear;
-}
+} 
 
 @keyframes showIcon{
     from{
