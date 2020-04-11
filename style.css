@@ -285,6 +285,12 @@ body{
     margin-bottom: 10px;
     font-weight: bold;
     color:#00538c;
+    transition: all 300ms;
+}
+
+.card:hover .category{
+    color: white;
+    animation: showCategory 400ms;
 }
 
 .card .description{
@@ -292,6 +298,10 @@ body{
     margin-right: 5px;
     font-family: "TrebuchetMS";
     color:#0370b9;
+}
+
+.card:hover .description{
+    color: white;
 }
 
 .clear{
