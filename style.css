@@ -290,7 +290,18 @@ body{
 
 .card:hover .category{
     color: white;
-    animation: showCategory 400ms;
+    animation: showCategory 400ms linear;
+}
+
+@keyframes showCategory{
+    from{
+        transform: translateY(-300%);
+        color: black;
+    }
+    to{
+        transform: translateY(0%);
+        color: white;
+    }
 }
 
 .card .description{
