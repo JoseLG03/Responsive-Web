@@ -309,12 +309,24 @@ body{
     margin-right: 5px;
     font-family: "TrebuchetMS";
     color:#0370b9;
+    transition: all 300ms;
 }
 
 .card:hover .description{
     color: white;
+    animation: showDescription 400ms linear;
 }
 
+@keyframes showDescription{
+    from{
+        transform: translateX(-300%);
+        color: black;
+    }
+    to{
+        transform: translateX(0%);
+        color: white;
+    }
+}
 .clear{
     float: none;
     clear: both;
