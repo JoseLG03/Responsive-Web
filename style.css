@@ -712,8 +712,13 @@ body{
 #footer ul li a{
     display: block;
     height: 43px;
+    transition: all 300ms;
 }
-
+#footer ul li:hover a{
+    padding-left: 40px;
+    color: white;
+    width: 100%;
+}
 #footer iframe{
     width: 100%;
     height: 270px;
