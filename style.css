@@ -612,6 +612,14 @@ body{
     margin-top: 60px;
     line-height: 100px;
     text-align: center !important;
+    transition: all 1s;
+}
+
+#blog:hover{
+    background-color: #333;
+    border: 10px solid #37bcf9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
 }
 
 #blog a{
@@ -621,6 +629,13 @@ body{
     font-size: 40px;
     letter-spacing: 3px;
     font-family: "BebasNeue";
+}
+
+#blog:hover a{
+    text-decoration:none !important;
+    color: white;
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
+    
 }
 
 #footer{
