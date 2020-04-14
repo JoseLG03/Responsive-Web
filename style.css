@@ -620,6 +620,26 @@ body{
     border: 10px solid #37bcf9;
     border-radius: 240px;
     box-shadow: 0px 0px 10px gray;
+    animation: destello 5s infinite linear;
+}
+
+
+@keyframes destello{
+    0%{
+        border-color: #37bcf9;
+    }
+    25%{
+        border-color: #2388b8;
+    }
+    50%{
+        border-color: #1d79a3;
+    }
+    75%{
+        border-color: #15526e;
+    }
+    100%{
+        border-color: #37bcf9;
+    }
 }
 
 #blog a{
@@ -634,8 +654,7 @@ body{
 #blog:hover a{
     text-decoration:none !important;
     color: white;
-    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
-    
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;    
 }
 
 #footer{
