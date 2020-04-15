@@ -626,19 +626,19 @@ body{
 
 @keyframes destello{
     0%{
-        border-color: #37bcf9;
+        border-color:#00538c;
     }
     25%{
-        border-color: #2388b8;
+        border-color: #6746c3;
     }
     50%{
-        border-color: #1d79a3;
+        border-color:  #000063;
     }
     75%{
-        border-color: #15526e;
+        border-color: #6746c3;
     }
     100%{
-        border-color: #37bcf9;
+        border-color:#00538c;
     }
 }
 
