@@ -46,7 +46,7 @@ body{
 }
 
 .wrap{
-    width: 1200px;
+    width: 1250px;
     margin: 0px auto;
 }
 
@@ -177,7 +177,7 @@ body{
 }
 
 #banner{
-    width: 95.5%;
+    width: 96.5%;
     height: 100px;
     border: 8px solid white;
     box-shadow: 0px 0px 2px gray;
@@ -242,7 +242,7 @@ body{
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
     overflow: hidden;
-    margin: 19px;
+    margin: 24px;
     margin-top: 40px;
     text-align: center;
     cursor: pointer;
