@@ -8,4 +8,12 @@
         margin:7px;
         width:18%;
     }
+
+    #article{
+        width: 65%;
+    }
+
+    #article article{
+        width:97%;
+    }
 }
