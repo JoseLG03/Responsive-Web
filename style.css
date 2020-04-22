@@ -238,7 +238,7 @@ body{
 .card{
     float: left;
     width:200px;
-    height: 250px;
+    height: 280px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
     overflow: hidden;
@@ -592,7 +592,7 @@ body{
     line-height: 30px;
     margin-top: -10px;
     padding: 4px;
-    font-size: 11px;
+    font-size: 9px;
     border-radius: 0px 0px 0px 5px;
     margin-right: -10px;
 }

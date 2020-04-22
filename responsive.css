@@ -4,9 +4,23 @@
         margin: 0% auto;
     }
 
+    #banner h1{
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+
     .card{
         margin:7px;
         width:18%;
+    }
+
+    .card p{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        height: 90%;
     }
 
     #article{
@@ -23,5 +37,9 @@
 
     #footer #browser img{
         width: 14%;
+    }
+
+    #footer h5{
+        font-size: 30px;
     }
 }
