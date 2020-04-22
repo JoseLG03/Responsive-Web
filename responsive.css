@@ -16,4 +16,12 @@
     #article article{
         width:97%;
     }
+
+    #footer .wrap >div{
+        width: 24%;
+    }
+
+    #footer #browser img{
+        width: 14%;
+    }
 }
