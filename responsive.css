@@ -84,4 +84,8 @@
     #lateral{
         width: 25%;
     }
+
+    .aside-box{
+        width: 95%;
+    }
 }
