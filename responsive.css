@@ -8,6 +8,7 @@
         font-size: 35px;
         text-align: center;
         margin: 33px auto;
+        width: 100%;
     }
 
     .card{
@@ -78,7 +79,7 @@
 @media (max-width:975px){
     
     #article{
-        width:60%;
+        width:58%;
     }
 
     #lateral{
@@ -91,7 +92,8 @@
         min-height: 140px;
     }
 
-    #login input[type="reset"]{
-        display: block;
+    #footer .wrap > div{
+        width: 26%;
+        margin: 20px;
     }
 }
