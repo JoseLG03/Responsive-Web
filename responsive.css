@@ -87,5 +87,11 @@
 
     .aside-box{
         width: 95%;
+        height: auto;
+        min-height: 140px;
+    }
+
+    #login input[type="reset"]{
+        display: block;
     }
 }
