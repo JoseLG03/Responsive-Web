@@ -76,6 +76,7 @@
     }
 }
 
+
 @media(max-width:990px){
     #article article h4{
         font-size: 20px;
@@ -89,7 +90,6 @@
         font-size: 35px;
     }
 }
-
 @media (max-width:975px){
     
     #article{
@@ -109,5 +109,39 @@
     #footer .wrap > div{
         width: 26%;
         margin: 20px;
+    }
+
+    @media (max-width:800px){
+        .card {
+            width: 17%;
+            margin: 9.3px;
+        }
+
+        #menu li {
+            font-size: 22px;
+        }
+
+        #article {
+            width: 53%;
+        }
+
+        #aside {
+            width: 285px;
+        }
+        .card .description {
+            display: none;
+        }
+
+        .card{
+            height: 200px;
+        }
+
+        #article article h4 {
+            font-size: 18px;
+        }
+
+        #article .data {
+            float: none;
+        }
     }
 }
