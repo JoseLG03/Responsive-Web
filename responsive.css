@@ -76,6 +76,20 @@
     }
 }
 
+@media(max-width:990px){
+    #article article h4{
+        font-size: 20px;
+    }
+
+    #aside h3{
+        font-size: 25px;
+    }
+
+    #article h2{
+        font-size: 35px;
+    }
+}
+
 @media (max-width:975px){
     
     #article{
