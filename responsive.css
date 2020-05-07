@@ -144,4 +144,40 @@
             float: none;
         }
     }
+    @media (max-width:900px){
+        .card {
+            width: 17%;
+            margin: 9.3px;
+        }
+ 
+        #menu li {
+            font-size: 22px;
+        }
+
+        #article {
+            width: 53%;
+        }
+
+        #aside {
+            width: 285px;
+        }
+        .card .description {
+            display: none;
+        }
+
+        .card{
+            height: 200px;
+        }
+
+        #article article h4 {
+            font-size: 18px;
+        }
+
+        #article .data {
+            float: none;
+        }
+        #footer img {
+            width: 100%;
+        }
+    }
 }
