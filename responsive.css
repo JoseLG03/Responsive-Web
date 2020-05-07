@@ -180,4 +180,57 @@
             width: 100%;
         }
     }
+
+    @media(max-width: 765px){
+        #header{
+            padding-top: 10px;
+            width: 100%;
+            height: 115px;
+        }
+
+        #nav{
+            float: none;
+            width: 68%;
+            clear: both;
+            margin: 0px auto;
+        }
+        #logo {
+            margin: 0px auto;
+            float: none;
+        }
+        #menu li {
+            font-size: 20px;
+        }
+    }
+
+    @media(max-width: 768px){
+     #menu li {
+            font-size: 20px;
+        }
+    }
+
+    @media(max-width: 730px){
+        #menu li {
+            font-size: 18px;
+        }
+        .card {
+            width: 16%;
+            margin: 9.3px;
+        }
+        #article {
+            width: 55%;
+        }
+        #aside {
+            width: 40%;
+            margin-right: 1px;
+        }
+        .box {
+            width: 100%;
+        }
+    }
+    @media(max-width: 730px){
+        #menu li {
+            font-size: 17px;
+        }       
+    }
 }
