@@ -248,8 +248,18 @@
             min-height: auto;
         }
         .box {
-            width: 100%;
             height: 180px;
         }
+        #login a {
+            display: flex;
+            margin-left: 39px;
+            padding-top: 12px;
+            padding-left: 24px;
+        }
+        #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+            margin-left: 50px;
+        }
+
+
     }
 }
