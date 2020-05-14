@@ -90,6 +90,7 @@
         font-size: 35px;
     }
 }
+
 @media (max-width:975px){
     
     #article{
@@ -110,7 +111,7 @@
         width: 26%;
         margin: 20px;
     }
-
+}
     @media (max-width:800px){
         .card {
             width: 17%;
@@ -143,7 +144,7 @@
         #article .data {
             float: none;
         }
-    }
+}
     @media (max-width:900px){
         .card {
             width: 17%;
@@ -179,7 +180,7 @@
         #footer img {
             width: 100%;
         }
-    }
+}
 
     @media(max-width: 765px){
         #header{
@@ -203,8 +204,8 @@
         }
         .card {
             width: 16%;
-        
-    }
+        }
+}
 
     @media(max-width: 760px){
      #menu li {
@@ -213,7 +214,13 @@
         .card {
             width: 16%;
         }
-    }
+        .card .icon {
+            font-size: 55px;
+        }
+        .card:hover .icon{
+            font-size: 55px;
+        } 
+}
 
     @media(max-width: 730px){
         #menu li {
@@ -239,7 +246,7 @@
         .card:hover .icon{
             font-size: 55px;
         } 
-    }
+}
     @media(max-width: 650px){
         #menu li {
             font-size: 16px;
@@ -280,7 +287,7 @@
         .card:hover .icon{
             font-size: 54px;
         } 
-    }
+}
     @media(max-width: 560px){
         #menu li {
             font-size: 14px;
@@ -316,5 +323,57 @@
         #login #user, #login #password {
             margin-left: 11px;
         }
+}
+
+@media(max-width: 560px){
+    .card {
+        width: 15%;
+        margin: 12.3px;
+    }
+    .card .icon {
+        font-size: 50px;
+    }
+    .card:hover .icon{
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 550px){
+    #menu li {
+        font-size: 13px;
+    }
+    .card {
+        width: 14%;
+        margin: 12.3px;
+    }
+}
+
+@media(max-width: 530px){
+    #menu li {
+        font-size: 12px;
+    }
+    #banner h1 {
+        font-size: 30px;
+    }
+    .card .icon {
+        font-size: 46px;
+    }
+    .card:hover .icon{
+        font-size: 46px;
+    }
+    .card .category {
+        font-size: 13px;
+    }
+    #login a {
+        padding-left: 15px;
+    }
+    #footer h5 {
+        font-size: 15px;
+    }
+    #footer ul {
+        font-size: 18px;
+    }
+    #blog a {
+        font-size: 35px;
     }
 }
