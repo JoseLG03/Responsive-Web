@@ -211,7 +211,7 @@
 
     @media(max-width: 730px){
         #menu li {
-            font-size: 18px;
+            font-size: 17px;
         }
         .card {
             width: 16%;
@@ -228,9 +228,9 @@
             width: 100%;
         }
     }
-    @media(max-width: 730px){
+    @media(max-width: 650px){
         #menu li {
-            font-size: 18px;
+            font-size: 16px;
         }       
         .wrap {
             width: 95%;
@@ -259,7 +259,14 @@
         #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
             margin-left: 50px;
         }
-
-
+        #menu li {
+            font-size: 16px;
+        }
+        .card .icon {
+            font-size: 52px;
+        }
+    }
+    @media(max-width: 600px){
+    
     }
 }
