@@ -207,7 +207,7 @@
         }
 }
 
-    @media(max-width: 760px){
+    @media(max-width: 768px){
      #menu li {
             font-size: 20px;
         }
@@ -279,7 +279,7 @@
             margin-left: 50px;
         }
         #menu li {
-            font-size: 16px;
+            font-size: 15px;
         }
         .card .icon {
             font-size: 54px;
@@ -288,6 +288,11 @@
             font-size: 54px;
         } 
 }
+@media(max-width: 570px){
+    #menu li {
+        font-size: 14px;
+    }
+}    
     @media(max-width: 560px){
         #menu li {
             font-size: 14px;
