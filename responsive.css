@@ -393,4 +393,14 @@
     #menu li {
         font-size: 11px;
     }
+    .card .category {
+        font-size: 12px;
+    }
+    .card:hover .icon {
+        font-size: 38px;
+    }
+    .card .icon {
+        font-size: 38px;
+    }
+
 }
