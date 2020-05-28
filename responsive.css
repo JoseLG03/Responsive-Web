@@ -402,5 +402,20 @@
     .card .icon {
         font-size: 38px;
     }
-
+}
+@media(max-width: 500px){
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        margin-left: 30px;
+    }
+    #banner h1 {
+        font-size: 28px;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        display: block;
+        width: 78%;
+      }
+      #footer .wrap > div {
+        width: 24%;
+        margin: 20px;
+    }
 }
