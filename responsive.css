@@ -382,3 +382,15 @@
         font-size: 34px;
     }
 }
+
+@media(max-width: 530px){
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 530px){
+    #menu li {
+        font-size: 11px;
+    }
+}
