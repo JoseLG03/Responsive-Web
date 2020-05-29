@@ -419,3 +419,9 @@
         margin: 20px;
     }
 }
+
+@media(max-width: 498px){
+    #footer .wrap > div {
+        width: 23%;
+    }
+}
