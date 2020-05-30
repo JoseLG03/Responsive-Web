@@ -464,4 +464,10 @@
     #login a {
         font-size: 12px;
     }
+    #article article {
+        width: 95%;
+    }
+    #footer h5 {
+        font-size: 10px;
+    }
 }
