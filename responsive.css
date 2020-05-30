@@ -451,4 +451,17 @@
     .card .icon {
         font-size: 30px;
     }
+    .card {
+        height: 80px;
+    }
+    .card .icon {
+        line-height: 70px;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        display: block;
+        width: 75%;
+    }
+    #login a {
+        font-size: 12px;
+    }
 }
