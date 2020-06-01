@@ -474,3 +474,9 @@
         font-size: 16px;
     }
 }
+
+@media(max-width: 410px){
+    #menu li {
+        font-size: 7px;
+    }
+}
