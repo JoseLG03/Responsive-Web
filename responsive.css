@@ -475,7 +475,7 @@
     }
 }
 
-@media(max-width: 409px){
+@media(max-width: 408px){
     #menu li {
         font-size: 7px;
     }
