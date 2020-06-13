@@ -356,6 +356,9 @@
         width: 14%;
         margin: 12.3px;
     }
+    #footer img {
+        width: 95%;
+    }
 }
 
 @media(max-width: 530px){
@@ -375,12 +378,18 @@
     .card .icon {
         font-size: 38px;
     }
+    #footer img {
+        width: 95%;
+    }
 }
 
 @media(max-width: 508px){
     #menu li {
         font-size: 16px;
         margin: 20px 14px 0px 5px;
+    }
+    #footer img {
+        width: 95%;
     }
 }
 
@@ -403,6 +412,9 @@
         width: 24%;
         margin: 20px;
     }
+    #footer img {
+        width: 95%;
+    }
 }
 
 @media(max-width: 498px){
@@ -412,6 +424,12 @@
     #menu li {
         font-size: 15px;
         margin: 18px 8px 0px 5px;
+    }
+    #footer ul {
+        font-size: 20px;
+    }
+    #footer img {
+        width: 95%;
     }
 }
 
@@ -472,5 +490,49 @@
     }
     #footer h5 {
         font-size: 25px;
+    }
+    #footer ul {
+        font-size: 20px;
+    }
+    #footer img {
+        width: 95%;
+    }
+}
+
+@media(max-width: 375px){
+    #menu li {
+        font-size: 14px;
+        margin: 18px 5px 0px 5px;
+    }
+    #banner h1 {
+        font-size: 18px;
+    }
+    .card {
+        width: 12%;
+        margin: 12.3px;
+    }
+    .card .icon {
+        font-size: 26px;
+    }
+    #login #user, #login #password {
+        margin-left: 8px;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        margin-left: 28px;
+    }
+    #login a {
+        font-size: 10px;
+    }
+    #article h2 {
+        font-size: 30px;
+    }
+    #blog a {
+        font-size: 38px;
+    }
+    #footer ul {
+        font-size: 20px;
+    }
+    #footer img {
+        width: 90%;
     }
 }
