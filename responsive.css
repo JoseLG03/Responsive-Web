@@ -467,16 +467,20 @@
     #article article {
         width: 95%;
     }
-    #footer h5 {
-        font-size: 10px;
+
+    #footer{
+        height: auto;
     }
     #footer ul {
         font-size: 16px;
     }
-}
-
-@media(max-width: 412px){
-    #menu li {
-        font-size: 7px;
+    #footer .wrap > div {
+        width: 100%;
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    #footer h5 {
+        font-size: 25px;
     }
 }
