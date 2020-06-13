@@ -428,7 +428,8 @@
 
 @media(max-width: 414px){
     #menu li {
-        font-size: 7px;
+        font-size: 15px;
+        margin: 18px 8px 0px 5px;
     }
     #header {
         padding-top: 10px;
