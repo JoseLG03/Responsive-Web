@@ -268,12 +268,6 @@
             font-size: 55px;
         } 
     }
-    @media(max-width: 638px){
-        #menu li {
-            font-size: 22px;
-            margin: 20px 15px 0px 5px;
-        }
-    }
 
     @media(max-width: 650px){
         #menu li {
@@ -314,15 +308,31 @@
             font-size: 54px;
         } 
 }
+
+@media(max-width: 638px){
+    #menu li {
+        font-size: 22px;
+        margin: 20px 15px 0px 5px;
+    }
+}
+
+@media(max-width: 598px){
+    #menu li {
+        font-size: 20px;
+        margin: 20px 15px 0px 5px;
+    }
+}
+
 @media(max-width: 570px){
     #menu li {
-        font-size: 14px;
+        font-size: 20px;
+        margin: 20px 15px 0px 5px;
     }
 }   
 
 @media(max-width: 560px){
     #menu li {
-        font-size: 20px;
+        font-size: 19px;
         margin: 20px 14px 0px 5px;
     }
     .card {
@@ -339,7 +349,7 @@
 
 @media(max-width: 550px){
     #menu li {
-        font-size: 20px;
+        font-size: 18px;
         margin: 20px 14px 0px 5px;
     }
     .card {
@@ -349,12 +359,12 @@
 }
 
 @media(max-width: 530px){
+    #menu li {
+        font-size: 18px;
+        margin: 20px 14px 0px 5px;
+    }
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
         margin-left: 40px;
-    }
-    #menu li {
-        font-size: 11px;
-        margin: 20px 10px 0px 5px;
     }
     .card .category {
         font-size: 12px;
@@ -366,6 +376,14 @@
         font-size: 38px;
     }
 }
+
+@media(max-width: 508px){
+    #menu li {
+        font-size: 16px;
+        margin: 20px 14px 0px 5px;
+    }
+}
+
 @media(max-width: 500px){
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
         margin-left: 30px;
