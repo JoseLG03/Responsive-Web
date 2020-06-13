@@ -543,15 +543,41 @@
         margin: 18px 3px 0px 5px;
     }
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
-        margin-left: 24px;
+        margin-left: 22px;
     }
     #login a {
-        font-size: 9px;
+        font-size: 10px;
+    }
+    #login a {
+        padding-left: 14px;
     }
     #footer img {
         width: 85%;
     }
     #footer h5 {
         margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 320px){
+    #menu li {
+        font-size: 12px;
+        margin: 18px 3px 0px 5px;
+    }
+    #banner h1 {
+        font-size: 16px;
+    }
+    .card {
+        width: 11%;
+        margin: 12.3px;
+    }
+    .card .icon {
+        font-size: 20px;
+    }
+    #login #user, #login #password {
+        margin-left: 4px;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        margin-left: 7px;
     }
 }
