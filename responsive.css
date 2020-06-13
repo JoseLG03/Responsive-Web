@@ -208,9 +208,10 @@
 }
 
     @media(max-width: 768px){
-     #menu li {
-            font-size: 20px;
-        }
+        #menu li {
+            font-size: 24px;
+            margin: 20px 15px 0px 5px;
+        }  
         .card {
             width: 16%;
         }
@@ -224,8 +225,9 @@
 
     @media(max-width: 730px){
         #menu li {
-            font-size: 17px;
-        }
+            font-size: 24px;
+            margin: 20px 15px 0px 5px;
+        }  
         .card {
             width: 16%;
             margin: 9.3px;
@@ -249,8 +251,9 @@
 }
     @media(max-width: 650px){
         #menu li {
-            font-size: 16px;
-        }       
+            font-size: 24px;
+            margin: 20px 15px 0px 5px;
+        }  
         .wrap {
             width: 95%;
             margin: 0% auto;
@@ -278,9 +281,6 @@
         #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
             margin-left: 50px;
         }
-        #menu li {
-            font-size: 15px;
-        }
         .card .icon {
             font-size: 54px;
         }
@@ -292,45 +292,13 @@
     #menu li {
         font-size: 14px;
     }
-}    
-    @media(max-width: 560px){
-        #menu li {
-            font-size: 14px;
-        }
-        #logo h3 {
-            font-size: 36px;
-        }
-        #banner h1 {
-            font-size: 32px;
-        }
-        #footer .wrap > div {
-            width: 25%;
-            margin: 20px;
-        }
-        #footer h5 {
-            font-size: 22px;
-        }
-        #footer ul {
-            font-size: 22px;
-        }
-        #article h2 {
-            font-size: 30px;
-        }
-        .card .category {
-            font-size: 16px;
-        }
-        .card:hover .icon{
-            font-size: 50px;
-        } 
-        #login #password {
-            margin-left: 14px;
-        }
-        #login #user, #login #password {
-            margin-left: 11px;
-        }
-}
+}   
 
 @media(max-width: 560px){
+    #menu li {
+        font-size: 20px;
+        margin: 20px 14px 0px 5px;
+    }
     .card {
         width: 15%;
         margin: 12.3px;
@@ -345,8 +313,8 @@
 
 @media(max-width: 550px){
     #menu li {
-        font-size: 14px;
-        margin: 20px 10px 0px 5px;
+        font-size: 20px;
+        margin: 20px 14px 0px 5px;
     }
     .card {
         width: 14%;
