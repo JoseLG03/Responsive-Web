@@ -345,7 +345,8 @@
 
 @media(max-width: 550px){
     #menu li {
-        font-size: 13px;
+        font-size: 14px;
+        margin: 20px 10px 0px 5px;
     }
     .card {
         width: 14%;
@@ -354,44 +355,12 @@
 }
 
 @media(max-width: 530px){
-    #menu li {
-        font-size: 12px;
-    }
-    #banner h1 {
-        font-size: 30px;
-    }
-    .card .icon {
-        font-size: 46px;
-    }
-    .card:hover .icon{
-        font-size: 46px;
-    }
-    .card .category {
-        font-size: 13px;
-    }
-    #login a {
-        padding-left: 15px;
-    }
-    #footer h5 {
-        font-size: 15px;
-    }
-    #footer ul {
-        font-size: 18px;
-    }
-    #blog a {
-        font-size: 34px;
-    }
-}
-
-@media(max-width: 530px){
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
         margin-left: 40px;
     }
-}
-
-@media(max-width: 530px){
     #menu li {
         font-size: 11px;
+        margin: 20px 10px 0px 5px;
     }
     .card .category {
         font-size: 12px;
@@ -406,6 +375,10 @@
 @media(max-width: 500px){
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
         margin-left: 30px;
+    }
+    #menu li {
+        font-size: 15px;
+        margin: 18px 8px 0px 5px;
     }
     #banner h1 {
         font-size: 28px;
@@ -423,6 +396,10 @@
 @media(max-width: 498px){
     #footer .wrap > div {
         width: 23%;
+    }
+    #menu li {
+        font-size: 15px;
+        margin: 18px 8px 0px 5px;
     }
 }
 
