@@ -559,6 +559,12 @@
     }
 }
 
+@media(max-width: 322px){
+    #menu li {
+        font-size: 12px;
+        margin: 18px 3px 0px 5px;
+    }
+}
 @media(max-width: 320px){
     #menu li {
         font-size: 12px;
