@@ -366,6 +366,10 @@
         font-size: 18px;
         margin: 20px 14px 0px 5px;
     }
+    #logo {
+        margin: 0px auto;
+        float: left;
+    }
     #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
         margin-left: 40px;
     }
@@ -388,6 +392,10 @@
         font-size: 16px;
         margin: 20px 14px 0px 5px;
     }
+    #logo {
+        margin: 0px auto;
+        float: left;
+    }
     #footer img {
         width: 95%;
     }
@@ -403,6 +411,10 @@
     }
     #banner h1 {
         font-size: 28px;
+    }
+    #logo {
+        margin: 0px auto;
+        float: left;
     }
     #login input[type="email"], #login input[type="password"] {
         display: block;
@@ -425,6 +437,10 @@
         font-size: 15px;
         margin: 18px 8px 0px 5px;
     }
+    #logo {
+        margin: 0px auto;
+        float: left;
+    }
     #footer ul {
         font-size: 20px;
     }
@@ -435,7 +451,7 @@
 
 @media(max-width: 414px){
     #menu li {
-        font-size: 15px;
+        font-size: 14px;
         margin: 18px 8px 0px 5px;
     }
     #header {
@@ -448,6 +464,10 @@
     }
     #banner {
         height: 85px;
+    }
+    #logo {
+        margin: 0px auto;
+        float: left;
     }
     .card {
         width: 13%;
@@ -501,8 +521,12 @@
 
 @media(max-width: 375px){
     #menu li {
-        font-size: 14px;
+        font-size: 13px;
         margin: 18px 5px 0px 5px;
+    }
+    #logo {
+        margin: 0px auto;
+        float: left;
     }
     #banner h1 {
         font-size: 18px;
@@ -556,6 +580,10 @@
     }
     #footer h5 {
         margin-bottom: 10px;
+    }
+    #logo {
+        margin: 0px auto;
+        float: left;
     }
 }
 
