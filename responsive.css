@@ -269,6 +269,16 @@
         } 
     }
 
+    @media(max-width: 675px){
+        #menu li {
+            font-size: 22px;
+            margin: 20px 15px 0px 5px;
+        }
+        #article h2 {
+            font-size: 32px;
+        }
+    }
+
     @media(max-width: 650px){
         #menu li {
             font-size: 24px;
@@ -328,7 +338,16 @@
         font-size: 20px;
         margin: 20px 15px 0px 5px;
     }
-}   
+   
+#banner h1 {
+    font-size: 32px;
+}
+#footer .wrap > div {
+    width: 25%;
+    margin: 20px;
+}
+
+}
 
 @media(max-width: 560px){
     #menu li {
@@ -364,7 +383,7 @@
 @media(max-width: 530px){
     #menu li {
         font-size: 18px;
-        margin: 20px 14px 0px 5px;
+        margin: 20px 10px 0px 5px;
     }
     #logo {
         margin: 0px auto;
@@ -384,6 +403,9 @@
     }
     #footer img {
         width: 95%;
+    }
+    #banner h1 {
+        font-size: 30px;
     }
 }
 
@@ -431,7 +453,10 @@
 
 @media(max-width: 498px){
     #footer .wrap > div {
-        width: 23%;
+        width: 21%;
+    }
+    #banner h1 {
+        font-size: 28px;
     }
     #menu li {
         font-size: 15px;
@@ -446,6 +471,26 @@
     }
     #footer img {
         width: 95%;
+    }
+}
+
+
+@media(max-width: 466px){
+    .card {
+        width: 13%;
+        margin: 12.3px;
+    }
+    #banner h1 {
+        font-size: 26px;
+    }
+    #login #user, #login #password {
+        margin-left: 12px;
+    }
+    #footer h5 {
+        font-size: 13px;
+    }
+    #footer ul {
+        font-size: 16px;
     }
 }
 
@@ -516,6 +561,11 @@
     }
     #footer img {
         width: 95%;
+    }
+}
+@media(max-width: 432px){
+    #banner h1 {
+        font-size: 23px;
     }
 }
 
