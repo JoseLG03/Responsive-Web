@@ -668,7 +668,7 @@
     }
 }
 
-@media(max-width: 334px){
+@media(max-width: 335px){
     #login #user, #login #password {
         margin-left: 4px;
     }
